@@ -1,4 +1,4 @@
-package com.example.myobservable;
+package com.example.myobservable.pushObservable;
 
 import android.os.Handler;
 
@@ -11,7 +11,7 @@ public class UserDataRepository implements Subject {
 
     private ArrayList<RepositoryObserver> mObservers;
 
-    public UserDataRepository() {
+    private UserDataRepository() {
         this.mObservers = new ArrayList<RepositoryObserver>();
         getNewDataFromRemote();
     }

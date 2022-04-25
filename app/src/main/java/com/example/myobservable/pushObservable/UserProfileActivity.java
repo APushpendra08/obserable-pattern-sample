@@ -1,9 +1,11 @@
-package com.example.myobservable;
+package com.example.myobservable.pushObservable;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.example.myobservable.R;
 
 public class UserProfileActivity extends AppCompatActivity implements RepositoryObserver {
 

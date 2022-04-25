@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyObservable">
         <activity
-            android:name=".UserProfileActivity"
+            android:name=".builtInObservable.UserProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".pushObservable.UserProfileActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

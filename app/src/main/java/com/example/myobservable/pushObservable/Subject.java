@@ -1,4 +1,4 @@
-package com.example.myobservable;
+package com.example.myobservable.pushObservable;
 
 public interface Subject {
     void registerObserver(RepositoryObserver repositoryObserver);
